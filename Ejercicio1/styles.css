@@ -1,0 +1,117 @@
+body {
+  font-size:6rem;
+  background:#2c333a;
+}
+.Letras{
+  height: -0rem;
+  font-family: 'Alfa Slab One', cursive;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+
+
+.Letras .u{
+  height:14rem;
+  animation-name: a;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+  color: #84b5b5;
+}
+
+@keyframes a{
+  0%{transform: rotateX(90deg);}
+  50%{transform: rotateX(0deg);}
+  100%{transform: rotateX(180deg);}
+}
+
+
+.Letras .p{
+  height:14rem;
+  animation-name: b;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+}
+
+@keyframes b{
+  5%{transform: rotateX(90deg);}
+  55%{transform: rotateX(0deg);}
+  105%{transform: rotateX(180deg);}
+}
+
+
+.Letras .y{
+  height:14rem;
+  animation-name: c;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+  color: #84b5b5;
+}
+
+@keyframes c{
+  10%{transform: rotateX(90deg);}
+  60%{transform: rotateX(0deg);}
+  110%{transform: rotateX(180deg);}
+}
+
+
+.Letras .o{
+  height:14rem;
+  animation-name: d;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+}
+
+@keyframes d{
+  15%{transform: rotateX(90deg);}
+  65%{transform: rotateX(0deg);}
+  115%{transform: rotateX(180deg);}
+}
+
+
+
+.Letras .v{
+  height:14rem;
+  animation-name: e;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+  color: #84b5b5;
+}
+
+@keyframes e{
+  20%{transform: rotateX(90deg);}
+  70%{transform: rotateX(0deg);}
+  120%{transform: rotateX(180deg);}
+}
+
+
+.Letras .e{
+  height:14rem;
+  animation-name: f;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+  color: #99b9c4
+
+  ;
+}
+
+@keyframes f{
+  25%{transform: rotateX(90deg);}
+  75%{transform: rotateX(0deg);}
+  125%{transform: rotateX(180deg);}
+}
+
+
+.Letras .r{
+  height:14rem;
+  animation-name: g;
+  transform: rotateX(180deg);
+  animation-duration: 5s;
+  color: #84b5b5;
+}
+
+@keyframes g{
+  30%{transform: rotateX(90deg);}
+  80%{transform: rotateX(0deg);}
+  130%{transform: rotateX(180deg);}
+}
