@@ -1,0 +1,24 @@
+body{
+    background-image: url(img/sky.jpg);
+    background-size: cover;
+    width: 100vw;
+}
+.nube1{
+    margin-top: 4rem;
+    margin-left: -20rem;
+    animation-name: nube1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes nube1{
+    100%{margin-left: 100vw;}
+}
+.nube2{
+    margin-left: -20rem;
+    animation-name: nube2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+@keyframes nube2{
+    100%{margin-left: 100vw;}
+}

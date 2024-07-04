@@ -1,0 +1,11 @@
+@font-face {
+    font-family: letra1;
+    src: url(fuente/MyriadPro-Light.otf);
+}
+body{
+    background-color: #f6e4ca;
+}
+.cuadro{
+    font-family: letra1;
+    background-color: white;
+}
