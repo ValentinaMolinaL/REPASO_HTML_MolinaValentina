@@ -4,8 +4,56 @@
 }
 body{
     background-color: #f6e4ca;
+    overflow: hidden;
+}
+.content{
+    width: 27rem;
+    margin-left: 27rem;
+    margin-top: 10rem;
+    border: solid transparent;
+    animation-name: movimiento;
+    animation-duration:5s;
+    animation-timing-function: linear;
+}
+@keyframes movimiento{
+    0%{margin-top:40rem;}
+    90%{margin-top:5rem;}
+}
+.circulo{
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-left: 9rem;
+    border-radius: 5rem;
+    background-color:white;
+    overflow:hidden;
+    box-shadow:2px 2px 4px rgb(184, 182, 182);
+    z-index: 2;
+    position: relative;
+}
+.circulo img{
+    width: 7.2rem;
+    margin-left: 0.6rem;
 }
 .cuadro{
+    height: 18rem;
+    margin-top: -7.5rem;
+    border-radius: 0.7rem;
     font-family: letra1;
     background-color: white;
+    text-align: center;
+}
+.cuadro h1{
+    padding-top: 7rem;
+}
+.cuadroPequeño{
+    width: 13rem;
+    height: 2rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    background-color: #009ab1;
+    justify-content: space-around;
+}
+.cuadroPequeño:hover{
+    background-color: #f34e60;
 }
