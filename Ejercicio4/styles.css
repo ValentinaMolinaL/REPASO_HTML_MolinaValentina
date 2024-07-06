@@ -2,23 +2,76 @@
     font-family: letra1;
     src: url(fuente/MyriadPro-Light.otf);
 }
+@font-face {
+    font-family: letraHamburguesas4;
+    src: url(fuente/AmazonEmber_Lt.ttf);
+  }
 body{
     background-color: #f6e4ca;
     overflow: hidden;
 }
+.content4 input{
+    display: none;
+}
+.contentSuperior4{
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    width: 80rem;
+    height:3rem;
+    background-color: white;
+}
+.content4 label img{
+    width: 3rem;
+    padding-bottom:6rem;
+}
+nav{
+    display: none;
+}
+nav a{
+    width: 8.5rem;
+    height: 30rem;
+    margin-top: -7.4rem;
+    font-size: 2rem;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    font-family: letraHamburguesas4;
+}
+.letras{
+    margin-top: -6.3rem;
+    color: black;
+}
+.cielo{
+    margin-top: -27.5rem;
+    color: black;
+}
+.caminata{
+    margin-top: -27.5rem;
+    color: black;
+}
+.content4 input:checked~nav{
+    display: block;
+}
+
+
+
+
 .content{
+    position: absolute;
     width: 27rem;
     margin-left: 27rem;
-    margin-top: 10rem;
+    top:7rem;
     border: solid transparent;
     animation-name: movimiento;
-    animation-duration:5s;
+    animation-duration:4s;
     animation-timing-function: linear;
 }
+
 @keyframes movimiento{
-    0%{margin-top:40rem;}
-    90%{margin-top:5rem;}
+    0%{margin-top:55rem;}
+    90%{margin-top:-1.5rem;}
 }
+
 .circulo{
     width: 8.5rem;
     height: 8.5rem;
@@ -44,11 +97,12 @@ body{
 }
 .cuadro h1{
     padding-top: 7rem;
+    color: #f34e60;
 }
 .cuadroPequeño{
     width: 13rem;
     height: 2rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
     margin-top: 1rem;
     border-radius: 0.2rem;
     background-color: #009ab1;
@@ -56,4 +110,7 @@ body{
 }
 .cuadroPequeño:hover{
     background-color: #f34e60;
+}
+.letraCP{
+    padding-top: 0.3rem;
 }

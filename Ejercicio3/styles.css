@@ -1,11 +1,82 @@
-body{
-    background-image: url();
-    background-size: cover;
+@font-face {
+    font-family: letraHamburguesas3;
+    src: url(fuente/AmazonEmber_Lt.ttf);
 }
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: 100% ;
+    margin-bottom:1rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.content3 input{
+    display: none;
+}
+.contentSuperior3{
+    margin-left: -0.4rem;
+    margin-top: -0.5rem;
+    width: 80rem;
+    height:3rem;
+    background-color: white;
+}
+.content3 label img{
+    width: 3rem;
+    padding-bottom:7rem;
+
+}
+nav{
+    display: none;
+}
+nav a{
+    position: relative;
+    width: 8.5rem;
+    height: 30rem;
+    margin-left: -0.1rem;
+    margin-top: -7.4rem;
+    font-size: 2rem;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    font-family: letraHamburguesas3;
+    z-index: 2;
+}
+.letras{
+    color: black;
+}
+.cielo{
+    margin-top: -27.5rem;
+    color: black;
+  }
+.robot{
+    margin-top: -27.5rem;
+    color: black;
+}
+.content3 input:checked~nav{
+    display: block;
+}
+
+
 .content img{
     position: absolute;
-    margin-left: 25rem;
+    margin-left: 25rem; 
+    top: 21rem;
+    width: 15rem;   
 }
+.content{
+    animation-name: mover;
+    animation-duration: 20s;
+    margin-left: 47rem;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
+
+@keyframes mover{
+    100% {
+        margin-left: -50rem;
+    }
+}
+
 .img1{
     animation-name: a1;
     animation-duration: 1s;
@@ -13,22 +84,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
-.content{
-    animation-name: mover;
-    animation-duration: 10s;
-    margin-left: 47rem;
-    animation-iteration-count: infinite;
-    overflow: hidden;
-    animation-timing-function: linear;
-}
-@keyframes mover{
-    100% {
-        margin-left: -50rem;
-    }
-}
+
 @keyframes a1{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 
 }
@@ -41,9 +100,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a2{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 
 }
@@ -56,9 +116,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a3{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -70,9 +131,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a4{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -86,7 +148,7 @@ body{
 }
 @keyframes a5{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -100,7 +162,7 @@ body{
 }
 @keyframes a6{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -112,9 +174,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a7{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -126,9 +189,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a8{
     0%{opacity: 1;}
-    19%{opacity: 1;}
+    8%{opacity: 1;}
     20%{opacity: 0;}
 }
 
@@ -140,10 +204,12 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a9{
     0%{opacity: 1;}
-    19%{opacity: 1;}
-    20%{opacity: 0;}}
+    8%{opacity: 1;}
+    20%{opacity: 0;}
+}
 
 
 .img10{
@@ -153,8 +219,10 @@ body{
     animation-iteration-count: infinite;
     opacity: 0;
 }
+
 @keyframes a10{
     0%{opacity: 1;}
-    19%{opacity: 1;}
-    20%{opacity: 0;}}
+    8%{opacity: 1;}
+    20%{opacity: 0;}
+}
 

@@ -1,23 +1,84 @@
+@font-face {
+    font-family: letraHamburguesas2;
+    src: url(fuente/AmazonEmber_Lt.ttf);
+}
 body{
     background-image: url(img/sky.jpg);
     background-size: cover;
     width: 100vw;
+    overflow: hidden;
 }
+.content2 input{
+    display: none;
+} 
+.contentSuperior2{
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    width: 80rem;
+    height:3rem;
+    background-color: white;
+}
+.content2 label img{
+    width: 3rem;
+    padding-bottom:6rem;
+}
+
+nav{
+    display: none;
+}
+nav a{
+    width: 8.5rem;
+    height: 30rem;
+    margin-top: -7.4rem;
+    font-size: 2rem;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    font-family: letraHamburguesas2;
+}
+nav a{
+    position:relative;
+    z-index: 2;
+}
+.letras{
+    margin-top: -6.3rem;
+    color: black;
+}
+.caminata{
+    margin-top: -27.5rem;
+    color: black;
+
+}
+.robot{
+    margin-top: -27.5rem;
+    color: black;
+
+}
+.content2 input:checked~nav{
+    display: block;
+}
+
+
 .nube1{
-    margin-top: 4rem;
+    position: absolute;
+    top: 4rem;
     margin-left: -20rem;
     animation-name: nube1;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes nube1{
     100%{margin-left: 100vw;}
 }
 .nube2{
+    position: absolute;
     margin-left: -20rem;
+    top: 14rem;
     animation-name: nube2;
     animation-duration: 18s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes nube2{
     100%{margin-left: 100vw;}

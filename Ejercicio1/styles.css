@@ -1,13 +1,61 @@
+@font-face {
+  font-family: letraHamburguesas;
+  src: url(fuente/AmazonEmber_Lt.ttf);
+}
 body {
   font-size:6rem;
   background:#2c333a;
+  overflow: hidden;
+}
+.content input{
+  display: none;
+}
+.contentSuperior{
+  margin-left: -0.5rem;
+  margin-top: -0.5rem;
+  width: 80rem;
+  height:3rem;
+  background-color: white;
+}
+.content label img{
+  width: 3rem;
+  padding-bottom:6rem;
+}
+nav{
+  display: none;
+}
+nav a{
+  width: 8.5rem;
+  height: 30rem;
+  margin-top: -7.4rem;
+  font-size: 2rem;
+  background-color: white;
+  text-decoration: none;
+  display: block;
+  font-family: letraHamburguesas;
+}
+.cielo{
+  color: black;
+}
+.caminata{
+  margin-top: -27.5rem;
+  color: black;
+}
+.robot{
+  margin-top: -27.5rem;
+  color: black;
+}
+.content input:checked~nav{
+  display: block;
 }
 .Letras{
+  position: absolute;
+  left: 25rem;
+  top:6rem;
   height: -0rem;
-  font-family: 'Alfa Slab One', cursive;
   display: flex;
   justify-content: center;
-  background-color: beige;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 
